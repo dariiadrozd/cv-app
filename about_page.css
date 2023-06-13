@@ -1,0 +1,174 @@
+* {
+    margin: o;
+    padding: 0;
+    font-style: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    background: #E5E5E5;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(hs..svg);
+    width: 64px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav p {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 20px;
+}
+
+main {
+    margin-top: 147px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.about h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+
+.about p {
+    font: 400 24px 'DM Sans';
+    color: #606060;
+    width: 575px;
+    margin-top: 20px;
+}
+
+.image {
+    background-image: url(Thumbnail\ —\ копия\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 405px;
+    height: 458px;
+    transform: matrix(0, 1, -1, 0, 0, 0)
+}
+
+.skills {
+    margin-top: 70px;
+}
+
+.hardskills {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.hardskills h3 {
+    font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
+    color: #181717;
+}
+
+.hardskills p {
+    font: 400 20px 'DM Sans';
+    color: #181717;
+    width: 430px;
+}
+
+
+.skills div {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    margin-top: 30px;
+}
+
+.skills div h3 {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration-line: underline;
+}
+
+.skills div p {
+    font: 400 20px 'DM Sans';
+    color: #181717;
+    width: 430px;
+}
+
+.line {
+    background: #181717;
+    width: 1120px;
+    height: 2px;
+    margin: 100px auto;
+}
+
+.arrow {
+    background-image: url(↓\ —\ копия.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 21px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.content div h2 {
+    width: 700px;
+    font: 400 32px 'DM Sans';
+    color: #181717;
+}
+
+footer {
+    margin-top: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h4 {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.inst {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    margin-right: 20px;
+}
+
+.TG {
+    font: 500 21px 'DM Sans';
+    color: #181717;
+}
