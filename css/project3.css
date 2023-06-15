@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 1200px;
+    top: 0;
+    padding: 15px 0;
+    background-color: #E5E5E5;
+    z-index: 1;
+}
+
+
+.logo {
+    background-image: url(../img/hs..svg);
+    width: 64px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav p a {
+    color: #181717;
+    font: 500 22px 'DM Sans';
+    text-decoration: none;
+}
+
+header nav p a:hover {
+    text-decoration: underline;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 20px;
+}
+
+main {
+    margin-top: 109px;
+}
+
+main h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+
+main p {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-top: 32px;
+}
+
+
+.input-1 {
+    display: flex;
+    margin-top: 52px;
+    align-items: center;
+}
+
+.input-1 input {
+    width: 676px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding-left: 22px;
+}
+
+.input-1 p {
+    width: 395px;
+    height: 76px;
+    margin-left: 47px;
+    font: 400 22px 'DM Sans';
+    color: #606060;
+}
+
+.input-2 {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.input-2 input {
+    width: 676px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding-left: 22px;
+}
+
+.input-2 p {
+    width: 200px;
+    height: 56px;
+    margin-left: 47px;
+    font: 400 22px 'DM Sans';
+    color: #606060;
+}
+
+main button {
+    background: #000000;
+    border-radius: 5px;
+    margin-top: 27px;
+    width: 162px;
+    height: 42px;
+    font: 700 18px 'DM Sans';
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 102px;
+    margin-bottom: 176px;
+}
+
+.nav-1 {
+    display: flex;
+}
+
+.linkedin {
+
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+footer {
+    margin-top: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h4 {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.inst {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    margin-right: 20px;
+}
+
+.TG {
+    font: 500 21px 'DM Sans';
+    color: #181717;
+}
+
+footer nav p:not(:last-child) {
+    padding-right: 20px;
+}
